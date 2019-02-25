@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+
+    <!--Bootstrap core CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
+
+    <script src="index.js"></script>
+
+    <title>Kino</title>
+
+</head>
+<body>
+    <!--Content of the page-->
+    <div class="container h-100">
+
+      <nav class="navbar navbar-expand-sm navbar-light pl-3 pr-3 ml-0">
+          <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" width="80" alt="Kino">
+          </a>
+        <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"-->
+                <!--aria-controls="false" aria-expanded="false" aria-label="Toggle navigation">-->
+          <!--<span class="navbar-toggler-icon"></span>-->
+        <!--</button>-->
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="security.html">Security</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="modal" data-target="#modalContactForm" href="#">Contact</a>
+            </li>
+          </ul>
+          <!--<form class="form-inline my-2 my-md-0">-->
+            <!--<input class="form-control" type="text" placeholder="Search" aria-label="Search">-->
+          <!--</form>-->
+        </div>
+      </nav>
+
+      <div class="row mt-5"></div>
+      <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+
+        <!--HEADER-->
+        <div class="row ml-0 mr-0 align-items-center h-100 mb-3">
+            <div class="col-sm-6 mt-3 mb-3 rounded">
+                <h1 class="pb-3 mainheading">Earn Kin for shopping at your favorite places.</h1>
+                <p class="pb-3">Swipe, tap, scan — if you have a debit or credit card, you’re set to earn Kin with every
+                    purchase. It’s that easy.</p>
+                <form class="form-inline" onsubmit="submit_email()">
+                    <div class="form-group mr-2 mb-3">
+                        <input type="email" class="form-control" id="email_field" aria-describedby="emailHelp"
+                               placeholder="Enter email address" required>
+                    </div>
+                    <button type="submit" class="btn btn-outline-primary mb-3">Join Beta</button>
+                </form>
+            </div>
+            <div class="col-sm-6 rounded mt-3 mb-3">
+                <!-- This could be a notification screen -->
+                <img class="w-75 img-fluid mx-auto d-block" src="images/mockup1.png" alt="">
+            </div>
+        </div>
+
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+
+        <!--TOP BRANDS-->
+        <div class="row ml-0 mr-0 mt-3 mb-3">
+            <div class="col-sm-12">
+                <h2 class="text-center subheading">100+ Top Brands</h2>
+            </div>
+        </div>
+
+        <div class="row mt-5"></div>
+
+        <div class="row ml-0 mr-0 mt-3 mb-5">
+            <div class="col-sm-2">
+                <img class="img-fluid mx-auto d-block" src="images/hotels.png" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/bloomingdales.png" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/seatgeek.png" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/classpass.png" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/stadiumgoods.png" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/dia_co.png" alt="">
+            </div>
+        </div>
+        <div class="row ml-0 mr-0 mt-3 mb-5">
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/finishline.png" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/forever21.png" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/elf.png" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/hotwire.png" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/sonos.png" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/macys.png" alt="">
+            </div>
+        </div>
+        <div class="row ml-0 mr-0 mt-3 mb-3">
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/groupon.png" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/surlatable.png" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/officedepot.png" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/jet.png" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/barnesandnoble.png" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img class="w-10 img-fluid mx-auto d-block" src="images/toms.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+
+
+        <!--HOW IT WORKS-->
+        <div class="row ml-0 mr-0 mt-3 mb-3">
+            <div class="col-sm-12">
+                <h2 class="text-center subheading">How it Works</h2>
+            </div>
+        </div>
+
+        <div class="row mt-5"></div>
+
+        <div class="row ml-0 mr-0 align-items-center h-100 mb-5">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 mt-3 mb-3">
+                <img class="w-75 img-fluid mx-auto d-block" src="images/linkcards.png" alt="">
+            </div>
+            <div class="col-sm-5">
+                <h2 class="heading">Link your debit and credit cards</h2>
+                <p class="">Whenever you spend with any of your linked cards, we automatically give you Kin.</p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+
+        <div class="row ml-0 mr-0 align-items-center h-100 mb-5">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <h2 class="heading">Shop at your favorite places</h2>
+                <p class="">Rack up Kin for going grocery shopping, taking an Uber to work,
+                    grabbing fast food, and more.</p>
+            </div>
+            <div class="col-sm-5">
+                <img class="w-75 img-fluid mx-auto d-block" src="images/shop.png" alt="">
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+
+        <div class="row ml-0 mr-0 align-items-center h-100 mb-5">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <img class="w-75 img-fluid mx-auto d-block" src="images/earnkin.png" alt="">
+            </div>
+            <div class="col-sm-5">
+                <h2 class="heading">Get rewards</h2>
+                <p class="">Redeem your Kin for gift cards and discount offers when and where you
+                    want!</p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+
+
+
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+
+        <!--SECURITY
+        <div class="row ml-0 mr-0 mt-3 mb-3">
+            <div class="col-sm-12">
+                <img class="mx-auto d-block pb-3" height="100" src="images/lock.png" alt="">
+                <h2 class="text-center subheading pb-3">We take security very seriously</h2>
+                <p class="text-center pb-3">Kino uses bank-level security with 256-bit SSL encryption, and
+                    read-only access to make sure your sensitive account information is safe. We never store
+                    your account credentials on our servers.</p>
+                <form class="form-inline justify-content-center">
+                    <a class="btn btn-link" href="security.html">Learn More</a>
+                </form>
+
+            </div>
+        </div>
+        -->
+
+        <div class="row ml-0 mr-0 mt-3 mb-3">
+            <div class="col-sm-12">
+                <img class="mx-auto d-block pb-3" height="100" src="images/lock.png" alt="">
+                <h2 class="text-center subheading pb-3">We take security very seriously</h2>
+                <p class="text-center pb-3">That’s why we use industry leading security practices to ensure your data is safe, all the time.</p>
+            </div>
+        </div>
+
+        <div class="row mt-5"></div>
+
+        <div class="row pl-3 pr-3 pb-3">
+            <div class="col-sm-3">
+                <p class=""><b>SSL Encryption</b></p>
+                <p class="">Our app is secured with 256-bit encryption to ensure your information is protected.</p>
+            </div>
+            <div class="col-sm-3">
+                <p class=""><b>Data Safeguards</b></p>
+                <p class="">We do not store any credit or banking information.</p>
+            </div>
+            <div class="col-sm-3">
+                <p class=""><b>Anonymity</b></p>
+                <p class="">We do not sell personally identifiable information to any third
+                    party.</p>
+            </div>
+            <div class="col-sm-3">
+                <p class=""><b>Transparency</b></p>
+                <p class="">If you have any questions or concerns about security, reach out to
+                    us. We are happy to help.</p>
+            </div>
+        </div>
+
+        <div class="row mt-5"></div>
+
+        <form class="form-inline justify-content-center">
+            <a class="btn btn-outline-primary" href="security.html">More about security</a>
+        </form>
+
+
+    <!--<div class="row mt-5"></div>-->
+
+        <!--<div class="row ml-0 mr-0 mb-3">-->
+            <!--<div class="col-sm-6 pl-5 pr-5">-->
+                <!--<p class="pl-5 pr-1 questions"><b>Where Can I Change The Colours?</b></p>-->
+                <!--<p class="pl-5 pr-1">DIY kinfolk etsy, drinking vinegar put a bird on it taxidermy chicharrones humblebrag kombucha-->
+                    <!--wolf beard swag tofu vegan try-hard. Celiac thundercats yr tote bag, pickled small batch lo-fi-->
+                    <!--dreamcatcher occupy chicharrones pop-up chambray letterpress.</p>-->
+            <!--</div>-->
+            <!--<div class="col-sm-6 p5-3 pr-5">-->
+                <!--<p class="pl-1 pr-5 questions"><b>Where Can I Change The Colours?</b></p>-->
+                <!--<p class="pl-1 pr-5">DIY kinfolk etsy, drinking vinegar put a bird on it taxidermy chicharrones humblebrag kombucha-->
+                    <!--wolf beard swag tofu vegan try-hard. Celiac thundercats yr tote bag, pickled small batch lo-fi-->
+                    <!--dreamcatcher occupy chicharrones pop-up chambray letterpress.</p>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="row ml-0 mr-0 mb-3">-->
+            <!--<div class="col-sm-6 pl-5 pr-5">-->
+                <!--<p class="pl-5 pr-1 questions"><b>Where Can I Change The Colours?</b></p>-->
+                <!--<p class="pl-5 pr-1">DIY kinfolk etsy, drinking vinegar put a bird on it taxidermy chicharrones humblebrag kombucha-->
+                    <!--wolf beard swag tofu vegan try-hard. Celiac thundercats yr tote bag, pickled small batch lo-fi-->
+                    <!--dreamcatcher occupy chicharrones pop-up chambray letterpress.</p>-->
+            <!--</div>-->
+            <!--<div class="col-sm-6 p5-3 pr-5">-->
+                <!--<p class="pl-1 pr-5 questions"><b>Where Can I Change The Colours?</b></p>-->
+                <!--<p class="pl-1 pr-5">DIY kinfolk etsy, drinking vinegar put a bird on it taxidermy chicharrones humblebrag kombucha-->
+                    <!--wolf beard swag tofu vegan try-hard. Celiac thundercats yr tote bag, pickled small batch lo-fi-->
+                    <!--dreamcatcher occupy chicharrones pop-up chambray letterpress.</p>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+
+        <!--FAQ
+        <div class="row ml-0 mr-0 mt-3 mb-3">
+            <div class="col-sm-12">
+                <h2 class="text-center subheading">Frequently Asked Questions</h2>
+            </div>
+        </div>
+
+        <div class="row mt-5"></div>
+
+        <div class="row ml-0 mr-0 mb-3">
+            <div class="col-sm-6 pl-5 pr-5">
+                <p class="pl-5 pr-1 questions"><b>Where Can I Change The Colours?</b></p>
+                <p class="pl-5 pr-1">DIY kinfolk etsy, drinking vinegar put a bird on it taxidermy chicharrones humblebrag kombucha
+                    wolf beard swag tofu vegan try-hard. Celiac thundercats yr tote bag, pickled small batch lo-fi
+                    dreamcatcher occupy chicharrones pop-up chambray letterpress.</p>
+            </div>
+            <div class="col-sm-6 p5-3 pr-5">
+                <p class="pl-1 pr-5 questions"><b>Where Can I Change The Colours?</b></p>
+                <p class="pl-1 pr-5">DIY kinfolk etsy, drinking vinegar put a bird on it taxidermy chicharrones humblebrag kombucha
+                    wolf beard swag tofu vegan try-hard. Celiac thundercats yr tote bag, pickled small batch lo-fi
+                    dreamcatcher occupy chicharrones pop-up chambray letterpress.</p>
+            </div>
+        </div>
+        <div class="row ml-0 mr-0 mb-3">
+            <div class="col-sm-6 pl-5 pr-5">
+                <p class="pl-5 pr-1 questions"><b>Where Can I Change The Colours?</b></p>
+                <p class="pl-5 pr-1">DIY kinfolk etsy, drinking vinegar put a bird on it taxidermy chicharrones humblebrag kombucha
+                    wolf beard swag tofu vegan try-hard. Celiac thundercats yr tote bag, pickled small batch lo-fi
+                    dreamcatcher occupy chicharrones pop-up chambray letterpress.</p>
+            </div>
+            <div class="col-sm-6 p5-3 pr-5">
+                <p class="pl-1 pr-5 questions"><b>Where Can I Change The Colours?</b></p>
+                <p class="pl-1 pr-5">DIY kinfolk etsy, drinking vinegar put a bird on it taxidermy chicharrones humblebrag kombucha
+                    wolf beard swag tofu vegan try-hard. Celiac thundercats yr tote bag, pickled small batch lo-fi
+                    dreamcatcher occupy chicharrones pop-up chambray letterpress.</p>
+            </div>
+        </div>
+
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+
+        -->
+
+        <!--LAST CALL TO ACTION-->
+        <div class="row ml-0 mr-0 mt-3">
+            <div class="col-sm-12">
+                <h2 class="display-4 mb-5 text-center">Be rewarded<br>for the spending you do everyday</h2>
+                <!--<p class="text-center mb-4">Its easy and secure!</p>-->
+            </div>
+        </div>
+            <div class="row ml-0 mr-0 mb-3">
+                <div class="col-sm-12">
+                    <form class="form-inline justify-content-center" onsubmit="submit_email()">
+                        <div class="form-group mb-3">
+                            <input type="email" class="form-control form-control-lg mr-2"
+                                   id="email_field"
+                                   aria-describedby="emailHelp"
+                                   placeholder="Enter email address"
+                                   required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg mb-3">Get Early Access</button>
+                    </form>
+                </div>
+            </div>
+
+
+        <!--CONTACT FORM-->
+        <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">How can we help you?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name"
+                                       required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Email"
+                                       required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="mobile" name="mobile"
+                                       placeholder="Mobile Number">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" type="textarea" id="message" placeholder="Message"
+                                          maxlength="140" rows="4"></textarea>
+                            </div>
+                            <p>We will do our best to respond within 24 hours.</p>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+        <div class="row mt-5"></div>
+
+        <hr>
+
+        <!--FOOTER-->
+        <footer class="footer">
+            <div class="row ml-0 mr-0">
+                <div class="col-sm-6">
+                    <span class="text-muted">© 2018 Kino. All Rights Reserved.</span>
+                </div>
+                <div class="col-sm-6 text-right">
+                    <span class="text-muted">Crafted with ♥ in Waterloo</span>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+    <!--Bootstrap core JavaScript-->
+    <!--Placed at the end of the page so that the pages load faster-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</body>
+</html>

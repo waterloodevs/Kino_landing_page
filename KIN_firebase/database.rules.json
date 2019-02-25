@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "email_addresses": {
+      "$key" : {
+        ".read": false,
+        ".write": "!data.exists()"
+      }
+    }
+  }
+}

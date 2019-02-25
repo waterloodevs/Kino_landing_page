@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../KIN_firebase/.idea/KIN_firebase.iml" filepath="$PROJECT_DIR$/../KIN_firebase/.idea/KIN_firebase.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/animation-submit-button/.idea/animation-submit-button.iml" filepath="$USER_HOME$/Downloads/animation-submit-button/.idea/animation-submit-button.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../quickstart/django_api/.idea/django_api.iml" filepath="$PROJECT_DIR$/../quickstart/django_api/.idea/django_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../quickstart/flask_api/.idea/flask-api.iml" filepath="$PROJECT_DIR$/../quickstart/flask_api/.idea/flask-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/landing_page.iml" filepath="$PROJECT_DIR$/.idea/landing_page.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../paytofollow/.idea/paytofollow.iml" filepath="$PROJECT_DIR$/../paytofollow/.idea/paytofollow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../quickstart/python/.idea/python.iml" filepath="$PROJECT_DIR$/../quickstart/python/.idea/python.iml" />
+    </modules>
+  </component>
+</project>

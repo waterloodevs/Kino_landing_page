@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900');
+
+.container {
+    max-width: 1000px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+.mainheading {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: "#4c4b4b"
+}
+
+.subheading {
+    font-family: 'Nunito', sans-serif;
+    font-weight:600;
+    font-size: 35px;
+    color: "#4c4b4b"
+}
+
+.heading {
+    font-family: 'Nunito', sans-serif;
+    font-weight:600;
+    font-size: 20px;
+    color: "#4c4b4b"
+}
+
+.questions {
+    font-family: 'Nunito', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    color: "#4c4b4b"
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.buttonCTA:focus {
+    box-shadow: none;
+}
+
+.buttonCTA {
+  height: 38px;
+  outline: none;
+  text-align: center;
+  border-radius: 5px;
+
+  text-color: #fff;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.buttonCTA:hover {
+  color: white;
+}
+.buttonCTA:active {
+}
+.buttonCTA:after {
+  content: "Get Early Access";
+}
+
+.onclic {
+  background: #fff;
+  border-radius: 38px;
+  height: 38px;
+  width: 38px;
+  border-color: #bbbbbb;
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: #007E33;
+  -webkit-animation: rotating 2s 0.25s linear infinite;
+          animation: rotating 2s 0.25s linear infinite;
+}
+.onclic:after {
+  content: "Thank you";
+}
+.onclic:hover {
+  color: #fff;
+  background: white;
+}
+
+.validate {
+  border-radius: 38px;
+  height: 38px;
+  width: 38px;
+  font-size: 13px;
+  color: white;
+  background: #007E33;
+}
+.validate:after {
+  font-family: 'FontAwesome';
+  content: "\f00c";
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}

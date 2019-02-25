@@ -1,0 +1,20 @@
+Hey everyone!
+
+We wanted to introduce a project we have been working on for the past couple of months. Kino 
+is a mobile rewards platform that allows you to earn Kin for shopping at places like
+McDonalds, Nike, Uber, Netflix, Amazon, Sephora and more. You are also able to redeem your Kin for
+exclusive (discount?) offers catered to your spending habits.
+
+How it works:
+1. Link your cards
+2. Shop at your favorite places
+3. Earn Kin
+3. Redeem for special offers
+
+We have been working hard to hold ourselves to the same deadlines set forth by Kin developer 
+program. We will be launching our beta soon. If you are interested, please sign up here:
+
+Kino Link
+
+
+P.s. Feel free to drop us a line, we are based out of Waterloo and are always looking to connect with like minded people.
