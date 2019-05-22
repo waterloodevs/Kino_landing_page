@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6521eeb9-0591-4cd2-92fa-f2b5dd47e01a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/KIN_firebase/public/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KIN_firebase/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/KIN_firebase/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KIN_firebase/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/KIN_firebase/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new phone screen.png" beforeDir="false" />
-    </list>
+    <list default="true" id="6521eeb9-0591-4cd2-92fa-f2b5dd47e01a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -108,8 +102,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ChromeExtension" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -136,12 +131,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557944986273</updated>
       <workItem from="1557944988750" duration="618000" />
-      <workItem from="1557945684693" duration="6122000" />
+      <workItem from="1557945684693" duration="6744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6740000" />
+    <option name="totallyTimeSpent" value="7362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
